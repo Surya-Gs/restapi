@@ -2,22 +2,22 @@
 
 This project demonstrates the deployment of a basic REST API using Docker and Terraform on the Azure cloud platform.
 
-Prerequisites
+--Prerequisites
 Ensure you have the following installed:
 
-Docker: Install Docker
-Terraform: Install Terraform
+Docker: Install Docker,
+Terraform: Install Terraform,
 Azure cli
 
 
-Getting Started
+--Getting Started
 Clone the repository to local:
 
 git clone <repository_url>
 cd <repository_name>
 
 
-Source code:
+--Source code:
 add flask application in app.py
 Add docker files: configuration files to build docker images
 main.tf: Terraform script to provision Azure resources.
@@ -30,7 +30,7 @@ terraform plan:generates a plan for changing infrastructure to match configurati
 terraform apply: applies the changes defined in your Terraform configuration to your infrastructure, making the necessary modifications to reach the desired state.
 
 
-Docker Commands to build and push the changes:
+--Docker Commands to build and push the changes:
 
 To build the image: docker build -t <image name> .
 
